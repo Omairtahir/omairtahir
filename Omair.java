@@ -11,9 +11,6 @@ package omair;
  */
 class Omair 
 { 
-      
-    // Decimal to binary conversion  
-    // using recursion 
     static int find(int decimal_number) 
     { 
         if (decimal_number == 0)  
@@ -25,7 +22,7 @@ class Omair
                 find(decimal_number / 2)); 
     } 
       
-// Driver Code 
+
 public static void main(String args[]) 
 { 
     int decimal_number = 10; 
